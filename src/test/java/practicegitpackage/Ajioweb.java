@@ -6,11 +6,11 @@ import org.testng.annotations.Test;
 
 public class Ajioweb {
   @Test
-  public void ajioweb() throws InterruptedException
+  public void TC001ajioweb() throws InterruptedException
   {
 	  WebDriver driver = new ChromeDriver();
 	  
-	  driver.get("https://www.ajio.com/");
+	  driver.get("https://www.facebook.com/");
 	  Thread.sleep(2000);
 	  driver.close();
   }
