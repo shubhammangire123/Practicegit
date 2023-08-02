@@ -10,7 +10,7 @@ public class Amazonweb {
 	  
  WebDriver driver = new ChromeDriver();
 	  
-	  driver.get("https://www.amazon.in/");
+	  driver.get("https://www.instagram.in/");
 	 Thread.sleep(1000);
 	  driver.close();
   }
